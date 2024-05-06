@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/5f59ca6ad3.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="person-container d-flex flex-column justify-content-center align-items-center" id="personContainer">
+        <img src="https://img.freepik.com/free-vector/woman-avatar_23-2147501833.jpg?t=st=1714203339~exp=1714206939~hmac=e5a12bce5bb5822b64018a6cf99fd86938db0cabe47bcc9d1c0c1903f0919bb6&w=740" class="user-image" />
+        <h1 class="name">Hi, Iam Alekhya Gunji</h1>
+        <p class="description">In this project, I have created a simple login page</p>
+    </div>
+
+    <div class="login-bg-container" id="displayHideContainer">
+        <h1 class="main-heading">User Login Form</h1>
+
+
+        <form id="formContainer" class="form-container d-flex flex-column justify-content-center align-items-center">
+            <div class="mb-3">
+                <label for="name" class="label">Name :</label>
+                <input type="text" class="form-control" id="name" />
+                <p id="nameErrMsg" class="error-message"></p>
+            </div>
+
+            <div class="mb-3">
+                <label for="email" class="label">Email :</label>
+                <input type="text" class="form-control" id="email" />
+                <p id="emailErrMsg" class="error-message"></p>
+            </div>
+
+            <div class="mb-3">
+                <label for="password" class="label">Password :</label>
+                <input type="password" class="form-control" id="password" />
+                <p id="passwordErrMsg" class="error-message"></p>
+            </div>
+
+
+            <button type="button" class="button" id="loginBtn"> Login </button>
+        </form>
+    </div>
+    <div class="d-flex flex-column justify-content-start align-items-cener" id="displayContainer">
+
+    </div>
+
+</body>
+
+</html>
