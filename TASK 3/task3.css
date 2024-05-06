@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.person-details {
+    background-image: url("https://img.freepik.com/free-photo/flat-lay-concept-clipboard_23-2148102691.jpg?t=st=1714470501~exp=1714474101~hmac=96fefef7c45dd97392b79da7319f6f9da20b62ea07216cf5784e04778fc81487&w=740");
+    background-size: cover;
+    height: 100vh;
+}
+
+.name {
+    font-size: 21px;
+    font-family: "lobster";
+    font-weight: 500;
+    margin-right: 73px;
+}
+
+.todos-bg-container {
+    background-color: white;
+    height: 100vh;
+}
+
+.heading-container {
+    background-color: #800b7d;
+    height: 10vh;
+    width: 100%;
+}
+
+.todos-heading {
+    text-align: center;
+    font-family: "Roboto";
+    font-size: 25px;
+    font-weight: 600;
+    padding-top: 14px;
+    width: 100%;
+    margin-bottom: 20px;
+    color: white;
+
+}
+
+.count-container {
+    margin-left: 300px;
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.count {
+    margin-left: 4px;
+}
+
+.create-task-heading {
+    font-family: "Roboto";
+    font-size: 29px;
+    font-weight: 700;
+    margin-top: 25px;
+}
+
+.create-task-heading-subpart {
+    font-family: "Roboto";
+    font-size: 29px;
+    font-weight: 500;
+}
+
+.my-tasks-container {
+    margin-bottom: 50px;
+    margin-top: 0px;
+}
+
+.todo-items-heading {
+    font-family: "Roboto";
+    font-size: 34px;
+    font-weight: 700;
+    font-family: "Bree Serif";
+    text-align: center;
+    margin-top: 20px;
+}
+
+.todo-items-heading-subpart {
+    font-family: "Roboto";
+    font-size: 32px;
+    font-weight: 500;
+    font-family: "Bree Serif";
+}
+
+.todo-items-container {
+    margin-bottom: 0px;
+    padding: 0px;
+}
+
+.todo-item-container {
+    margin-top: 15px;
+}
+
+.todo-user-input {
+    background-color: #f2e9f2;
+    width: 55%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #e4e7eb;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.add-button {
+    color: white;
+    background-color: #800b7d;
+    font-family: "Roboto";
+    height: 48px;
+    width: 55px;
+    font-size: 23px;
+    font-weight: 500;
+    border-width: 0px;
+    border-radius: 46px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-left: 150px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.button {
+    color: white;
+    background-color: #800b7d;
+    font-family: "Roboto";
+    font-size: 19px;
+    border-width: 0px;
+    border-radius: 6px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    margin-left: 200px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.label-container {
+    background-color: #f5c6f4;
+    width: 100%;
+    border-style: solid;
+    border-width: 8px;
+    border-color: #f007eb;
+    border-right: none;
+    border-top: none;
+    border-bottom: none;
+    border-radius: 20px;
+
+
+}
+
+.checkbox-input {
+    width: 20px;
+    height: 20px;
+    margin-top: 12px;
+    margin-right: 12px;
+
+}
+
+.checkbox-label {
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 500;
+    width: 82%;
+    margin: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 5px;
+}
+
+.delete-icon-container {
+    text-align: right;
+    width: 7%;
+    margin-left: 150px;
+
+
+}
+
+.delete-icon {
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    background-color: transparent;
+    color: #de1212;
+    font-weight: 600;
+    font-size: 18px;
+    outline: none;
+    border: none;
+}
+
+.checked {
+    text-decoration: line-through;
+    color: #3232a8;
+}
