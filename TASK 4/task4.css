@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.person-container {
+    background-color: white;
+    height: 100vh;
+    background-size: cover;
+}
+
+.login-bg-container {
+    background-color: #55d9d9;
+    height: 100vh;
+}
+
+.name {
+    font-family: "Bree Serif";
+    font-size: 31px;
+    text-align: center;
+    padding-top: 15px;
+    font-weight: 500;
+}
+
+.description {
+    font-size: 19px;
+    text-align: center;
+    padding-top: 10px;
+    font-weight: 400;
+}
+
+.main-heading {
+    font-family: "lobster";
+    color: black;
+    font-size: 35px;
+    text-align: center;
+    padding-top: 20px;
+
+}
+
+.user-image {
+    height: 20vh;
+    width: 20vw;
+}
+
+.form-container {
+    background-color: #398080;
+    margin-top: 50px;
+    margin-left: 70px;
+    margin-right: 70px;
+    border-radius: 7px;
+    padding: 20px;
+}
+
+.label {
+    font-size: 20px;
+    color: white;
+    font-weight: 500;
+    padding-left: 20px;
+
+}
+
+.form-control {
+    width: 95%;
+    background-color: #d5e3d9;
+    height: 35px;
+    border: 1px solid #afbdb3;
+    margin-left: 20px;
+
+}
+
+.error-message {
+    font-family: "Roboto";
+    font-size: 17px;
+    color: #dc3545;
+    font-weight: 400;
+}
+
+.button {
+    background-color: #305261;
+    font-family: "Roboto";
+    font-size: 15px;
+    font-weight: 600;
+    color: white;
+    border-width: 0px;
+    border-radius: 6px;
+    margin-top: 13px;
+    margin-bottom: 50px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 300px;
+    height: 36px;
+}
+
+.display-container {
+    background-image: url("https://img.freepik.com/free-vector/people-holding-banner_23-2148086022.jpg?t=st=1714198909~exp=1714202509~hmac=ff8a70e64a3135a5d03a381d6477db545a0e07fb539439541352cd421501fa0b&w=740");
+    background-size: cover;
+    padding: 20px;
+    height: 100vh;
+    width: 100vw;
+}
+
+.success-img {
+    font-size: 70px;
+    color: green;
+
+    margin-left: 200px;
+    margin-bottom: 10px;
+    margin-top: 190px;
+
+}
+
+.success-text {
+    font-size: 14px;
+    font-weight: 500;
+    color: black;
+    padding-left: 58px;
+    text-align: center;
+}
+
+.delete-icon-container {
+    margin: 10px;
+}
+
+.delete-mark {
+    font-size: 23px;
+    font-weight: 400;
+    color: black;
+    outline: none;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+
+    margin-left: 450px;
+}
